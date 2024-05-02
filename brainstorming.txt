@@ -1,0 +1,7 @@
+- As a user I want to see the top matches from the top basketball leagues in the world when I visit the homepage of hoopertv
+- As a user I want to see the schedule of the matches in my own timezone
+- As a user I want to see match results from old games.
+- As a user I want to see player stats from finished games of the past
+- As a user I want to see rankings of game participants (teams) before/after a game that happened in the past.
+- As a user I want to see the top news from the top basketball leagues in the world when I visit the homepage of hoopertv
+- As a user I want to see 7 tabs containing the weekdays from mo to sun when I visit the homepage of hoopertv
