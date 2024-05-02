@@ -1,3 +1,5 @@
+User Stories
+=============
 - As a user I want to see the top matches from the top basketball leagues in the world when I visit the homepage of hoopertv
 - As a user I want to see the schedule of the matches in my own timezone
 - As a user I want to see match results from old games.
@@ -5,3 +7,24 @@
 - As a user I want to see rankings of game participants (teams) before/after a game that happened in the past.
 - As a user I want to see the top news from the top basketball leagues in the world when I visit the homepage of hoopertv
 - As a user I want to see 7 tabs containing the weekdays from mo to sun when I visit the homepage of hoopertv
+
+
+URL Endpoints
+==============
+| /                                                                 | default of homepage of hoopertv
+| /{locale_code}/                                                   | homepage of hoopertv in the selected language
+| /{locale_code}/schedules/                                         | list of today's games from different competitions
+| /{locale_code}/schedules/{year-month-day}/                        | list of games from different competitions for the selected day
+| /{locale_code}/competitions/                                      | list of all competitions of all countries categorized by continents
+| /{locale_code}/competitions/international/{competition_name}/     | latest results, fixtures, rankings, top scorers and current news of the international competition
+| /{locale_code}/competitions/{country_name}/{competition_name}/    | latest results, fixtures, rankings, top scorers and current news of the competition in the respective country
+| /{locale_code}/teams/                                             |
+| /{locale_code}/teams/{country_name}/{club_name}/                  | latest results, fixtures, roster, stats (points, assists, rebounds, ejections etc.), transfers and current news of the club
+| /{locale_code}/countries/{country_name}/                          | latest results, fixtures, roster, stats (points, assists, rebounds, ejections etc.) and current news of the national team
+| /{locale_code}/channels/                                          | list of channels and online streaming services
+| /{locale_code}/channels/{channel_name}                            | broadcast rights, games scheduled to boadcast, about section, satellite information
+| /{locale_code}/news/                                              | current news (prioritizing news in the country of the selected locale_code)
+| /{locale_code}/news/{newsarticle_id}/{newsarticle_title}/         | image and content of the selected news article
+| /{locale_code}/providers/                                         | Online Streaming, Cable and Satellite Providers
+| /{locale_code}/providers/{provider_id}/{provider_name}/           | schedule, about section, available channels and packages of the selected provider
+| /{locale_code}/match/{match_id}/{team-1-vs-team-2}/               | general info about the game (court, logos of teams, date), live broadcasts, on-demand broadcasts, table/ranking and international coverage. Note: url works fine without team-1-vs-team-2
