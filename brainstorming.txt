@@ -29,3 +29,12 @@ URL Endpoints
 | /{locale_code}/providers/{provider_id}/{provider_name}/                         | schedule, about section, available channels and packages of the selected provider
 | /{locale_code}/match/{match_id}/{team-1-vs-team-2}/                             | general info about the game (court, logos of teams, date), live broadcasts, on-demand broadcasts, table/ranking and international coverage. Note: url works fine without team-1-vs-team-2
 | /{locale_code}/player/{player_firstname-player_lastname}/{player_id}/           | general info (current team, birthdate & -country etc.), stats, trophies, transfers and injury history
+
+
+Techstack
+=========
+main programming language: python
+backend framework: django, django rest framework
+database system: postgresql
+frontend technologies: html, css, typescript?
+template engine: jinja2 or maybe dtl?
